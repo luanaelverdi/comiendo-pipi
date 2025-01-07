@@ -12,11 +12,11 @@
 }
 
 .header {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images/bg.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images/background.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 78vh;
+    min-height: 110vh;
     display: flex;
     align-items: center;
 }
@@ -50,6 +50,9 @@ display: block;
 font-weight: 600;
 
 }
+.menu .navbar ul li a:hover{
+    color: #ee9f77;
+} 
 
 #menu{
     display: none;
@@ -62,4 +65,45 @@ font-weight: 600;
 .menu label{
     display: none;
     cursor: pointer;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fffdfc;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.header-content p{
+    font-size: 20px;
+    color: #fffdfc;
+    padding: 0 25px;
+    margin-bottom: 25px;
+    
+}
+
+.coffee-contact{
+    text-align: center;
+    display: inline-block;
+}
+
+.coffee-contact h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.coffee-contact p{
+    font-size: 20px;
+}
+
+.coffe-1 img{
+    min-height: 50px;
+    min-width: 50px;
 }
