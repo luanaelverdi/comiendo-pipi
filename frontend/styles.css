@@ -87,23 +87,23 @@ font-weight: 600;
     
 }
 
-.coffee-contact{
+.cake-contact{
     text-align: center;
     display: inline-block;
 }
 
-.coffee-contact h2{
+.cake-contact h2{
     font-size: 40px;
     font-weight: 700;
     margin: 30px;
     text-transform: uppercase;
 }
 
-.coffee-contact p{
+.cake-contact p{
     font-size: 20px;
 }
 
-.coffe-1 img{
+.cake-1 img{
     min-height: 50px;
     min-width: 50px;
 }
