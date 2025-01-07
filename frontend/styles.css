@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    overflow-x: hidden;
 }
 
 .container {
@@ -21,7 +22,7 @@
     align-items: center;
 }
 
-.menu{
+.menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -31,47 +32,49 @@
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     color: #fffdfc;
     font-size: 25px;
     font-weight: 800;
 }
 
-.menu .navbar ul li{
+.menu .navbar ul li {
     position: relative;
     float: left;
 
 }
-.menu .navbar ul li a{
-font-size: 38px;
-padding: 20px;
-color: #fffdfc;
-display: block; 
-font-weight: 600;
+
+.menu .navbar ul li a {
+    font-size: 38px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
 
 }
-.menu .navbar ul li a:hover{
-    color: #ee9f77;
-} 
 
-#menu{
+.menu .navbar ul li a:hover {
+    color: #ee9f77;
+}
+
+#menu {
     display: none;
 }
 
-.menu-icono{
+.menu-icono {
     width: 25px;
 }
 
-.menu label{
+.menu label {
     display: none;
     cursor: pointer;
 }
 
-.header-content{
+.header-content {
     text-align: center;
 }
 
-.header-content h1{
+.header-content h1 {
     font-size: 60px;
     font-weight: 700;
     color: #fffdfc;
@@ -79,31 +82,122 @@ font-weight: 600;
     text-transform: uppercase;
 }
 
-.header-content p{
+.header-content p {
     font-size: 20px;
     color: #fffdfc;
     padding: 0 25px;
     margin-bottom: 25px;
-    
+
 }
 
-.cake-contact{
+.txt-p {
+    font-size: 20px;
+    margin: 30px;
+
+}
+
+.title-2 {
     text-align: center;
-    display: inline-block;
-}
-
-.cake-contact h2{
     font-size: 40px;
     font-weight: 700;
     margin: 30px;
     text-transform: uppercase;
+    font-style: bold;
+
 }
 
-.cake-contact p{
-    font-size: 20px;
+.title-3 {
+    text-align: center;
+    font-size: 35px;
+
 }
 
-.cake-1 img{
-    min-height: 50px;
-    min-width: 50px;
+.cake {
+    background-color: #d3c1b8;
+}
+
+.cake-group {
+    display: flex;
+    justify-content: center;
+}
+
+.cake-1 img {
+    align-content: center;
+    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15px;
+}
+
+.services{
+    background-image: linear-gradient(rgba(209, 198, 198, 0.7), rgba(177, 155, 155, 0.7)), url(images/fondo-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.services-group {
+    display: flex;
+    justify-content: center;
+}
+
+.services-1 img {
+    height: 60%;
+    object-fit: initial;
+    padding: 10px;
+}
+
+.productos {
+    background-color: #86614e;
+}
+
+.blog-content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.blog-1 img {
+    height: 90vh;
+    padding: 10px 10px;
+    object-fit: contain;
+}
+
+.footer {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fffdfc;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-content h3 {
+    font-size: 30px;
+}
+
+.footer-content ul li {
+    font-size: 18px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #fffdfc;
+}
+
+
+.medios-pago {
+    margin: 15px;
+}
+
+.contacto {
+    margin: 15px;
 }
