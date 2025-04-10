@@ -25,17 +25,10 @@
 .menu {
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    right: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.logo {
-    color: #fffdfc;
-    font-size: 25px;
-    font-weight: 800;
 }
 
 .menu .navbar ul li {
@@ -149,7 +142,7 @@
 }
 
 .productos {
-    background-color: #86614e;
+    background-color: #af5757;
 }
 
 .blog-content {
@@ -157,12 +150,12 @@
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+
 }
 
 .blog-1 img {
-    height: 90vh;
+    height: 65%;
     padding: 10px 10px;
-    object-fit: contain;
 }
 
 .footer {
