@@ -12,7 +12,7 @@ export default class extends AbstractView {
         appContainer.innerHTML = VIEW_CONTENT;
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = 'public/css/styles.css'; // Asegurate que la ruta sea correcta
+        link.href = 'public/css/styles.css'; 
         document.head.appendChild(link);
     }
 }
@@ -23,7 +23,6 @@ const VIEW_CONTENT = `
     <header class="header">
 
         <div class="menu container">
-            <a href="#" class="logo"> LOGO </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="public/images/menu.png" class="menu-icono" alt="menu">
