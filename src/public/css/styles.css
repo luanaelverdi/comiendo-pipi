@@ -12,8 +12,8 @@
     margin: 0 auto;
 }
 
-.header {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images/background.jpg);
+.app .header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/background.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@
 }
 
 .services{
-    background-image: linear-gradient(rgba(209, 198, 198, 0.7), rgba(177, 155, 155, 0.7)), url(images/fondo-2.jpg);
+    background-image: linear-gradient(rgba(209, 198, 198, 0.7), rgba(177, 155, 155, 0.7)), url(../images/fondo-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@
 }
 
 .footer {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images/fondo.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/fondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
